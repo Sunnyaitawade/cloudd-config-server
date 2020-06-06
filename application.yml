@@ -7,3 +7,15 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost    
+ 
+    
+spring:
+  jpa:    
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:    
+    url: jdbc:mysql://localhost:3306/mssample
+    username: root
+    password: root
+   
