@@ -19,3 +19,8 @@ spring:
     username: root
     password: root
    
+microservice:
+   payment-service:
+     endpoints:
+       endpoint:
+         uri: http://PAYMENT-SERVICE/payments/add
